@@ -30,7 +30,7 @@ function converter() {
             res.innerHTML = `<p>Resultado: ${num}m = ${km} quilômetros.</p>`
             break;
         default:
-            res.innerHTML = `<p>Insira uma das opções.</p>`
+            res.innerHTML = `<p>Escolha uma das opções acima.</p>`
             break;
     }
 }
