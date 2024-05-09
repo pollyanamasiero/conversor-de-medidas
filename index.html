@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de medidas</title>
+</head>
+<body>
+    <h1>Conversor de medidas</h1>
+
+    <div id="container">
+    <section>
+        <p>
+            <label for="num">Valor em metros:</label>
+            <input type="number" id="num">
+        </p>
+        <p>Selecione a unidade de conversão</p>
+        
+        <p> 
+            1 - mm - milímetros <br>
+            2 - cm - centímetros <br>
+            3 - dm - decímetros <br>
+            4 - dam - decâmetros <br>
+            5 - km - hectômetros <br>
+            6 - km - quilômetros 
+        </p>
+        <p>
+            <label for="uni">Converter em:</label>
+            <input type="number" id="uni">
+        </p>
+        <input type="button" value="Converter" onclick="converter()">
+        
+    </section>
+    <section id="res">
+        <p>Preencha os dados acima!</p>
+    </section>
+</div>
+
+<footer>
+    <p>2024 @ Pollyana Masiero Torquato</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
